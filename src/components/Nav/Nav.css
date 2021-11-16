@@ -1,0 +1,22 @@
+.nav {
+  margin: 0 1rem;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav li:hover {
+  font-weight: bold;
+  transform: scale(1.05);
+}

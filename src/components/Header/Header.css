@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  height: 70px;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 244, 237)
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}

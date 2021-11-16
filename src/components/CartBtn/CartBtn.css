@@ -1,0 +1,27 @@
+.cart-btn {
+  display: flex;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem 0.1rem;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.cart-btn:hover {
+  background-color: rgb(212, 211, 209);
+}
+
+.cart-icon,
+.cart-item-num {
+  margin: 0;
+}
+
+.cart-icon {
+  width: 50%;
+}
+
+.cart-icon img {
+  width: 70%;
+  height: auto;
+}

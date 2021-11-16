@@ -1,9 +1,14 @@
 import React from 'react'
+import Nav from '../Nav/Nav'
+import './Header.css'
 
 function Header (props) {
+  const { numItems } = props
+
   return (
-    <header>
-      <h1>This is a header</h1>
+    <header className="header">
+      <h1>Delightful Doilies</h1>
+      <Nav numItems= {numItems} />
     </header>
   )
 }
