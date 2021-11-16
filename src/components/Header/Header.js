@@ -2,9 +2,9 @@ import React from 'react'
 
 function Header (props) {
   return (
-    <div>
-
-    </div>
+    <header>
+      <h1>This is a header</h1>
+    </header>
   )
 }
 
