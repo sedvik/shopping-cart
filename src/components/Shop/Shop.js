@@ -1,6 +1,5 @@
 import React from 'react'
 import ShopItem from '../ShopItem/ShopItem'
-import uniqid from 'uniqid'
 import LoadingIcon from '../LoadingIcon/LoadingIcon'
 import './Shop.css'
 
@@ -14,7 +13,8 @@ function Shop (props) {
           ? shopEntries.map(entry => {
             return (
               <ShopItem
-                key={uniqid()}
+                key={entry.id}
+                id={entry.id}
                 title={entry.title}
                 src={entry.src}
                 alt={entry.alt}

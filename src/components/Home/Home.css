@@ -52,16 +52,15 @@
 
 .home-shop-link {
   cursor: pointer;
-  font-family: 'Estonia', cursive;
-  font-size: 2.5rem;
-  color: white;
-  background-color: rgb(206, 76, 108);
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  background-color: rgb(250, 190, 205);
   padding: 0.6rem;
   border: 1px solid black;
   border-radius: 5px;
 }
 
 .home-shop-link:hover {
-  background-color: rgb(163, 50, 79);
+  background-color: rgb(228, 161, 178);
   transform: scale(1.05);
 }

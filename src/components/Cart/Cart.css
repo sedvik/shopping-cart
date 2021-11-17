@@ -1,0 +1,38 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(250, 244, 237);
+  text-align: center;
+}
+
+.cart-container > p,
+.cart-container > button {
+  font-family: 'Dosis', sans-serif;
+}
+
+.total-price {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.empty-cart-text {
+  font-size: 1.5rem;
+}
+
+.checkout,
+.cart-shop-btn {
+  cursor: pointer;
+  width: 100px;
+  font-size: 1.2rem;
+  margin: 1rem auto 0.5rem auto;
+}
+
+.cart-shop-btn {
+  font-family: 'Dosis', sans-serif;
+}
