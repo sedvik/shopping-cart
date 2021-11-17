@@ -7,7 +7,7 @@ function Header (props) {
 
   return (
     <header className="header">
-      <h1>Delightful Doilies</h1>
+      <h1>the Doily Shoppe</h1>
       <Nav numItems= {numItems} />
     </header>
   )

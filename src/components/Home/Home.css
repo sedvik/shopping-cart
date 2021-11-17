@@ -1,0 +1,67 @@
+.home-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.home-container h2 {
+  font-family: 'Cookie', cursive;
+  font-size: 2.5rem;
+  margin: 0.5rem 0 1rem 0;
+  text-decoration: underline;
+  text-decoration-thickness: 0.15rem;
+  text-underline-offset: 0.2rem;
+}
+
+.home-container section {
+  width: 100%;
+  padding: 1rem;
+  margin: 3rem 0;
+  background-color: rgb(250, 244, 236);
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(221, 219, 219);
+}
+
+.home-container section p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.emphasis {
+  display: block;
+  font-family: 'Estonia', cursive;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.mission .emphasis {
+  margin-top: 0rem;
+}
+
+.mission p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0.5rem;
+}
+
+.testimonials iframe {
+  margin-bottom: 1rem;
+}
+
+.home-shop-link {
+  cursor: pointer;
+  font-family: 'Estonia', cursive;
+  font-size: 2.5rem;
+  color: white;
+  background-color: rgb(206, 76, 108);
+  padding: 0.6rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.home-shop-link:hover {
+  background-color: rgb(163, 50, 79);
+  transform: scale(1.05);
+}
