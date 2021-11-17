@@ -4,12 +4,12 @@ import Home from './components/Home/Home'
 import Shop from './components/Shop/Shop'
 import Cart from './components/Cart/Cart'
 import { HashRouter, Routes, Route } from 'react-router-dom'
+import { shopEntries } from './util/shopData'
 import './styles/reset.css'
 import './styles/App.css'
 
 function App () {
   const numItems = 5
-  const shopEntries = []
 
   return (
     <HashRouter>

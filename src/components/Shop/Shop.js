@@ -1,4 +1,6 @@
 import React from 'react'
+import ShopItem from '../ShopItem/ShopItem'
+import uniqid from 'uniqid'
 import LoadingIcon from '../LoadingIcon/LoadingIcon'
 import './Shop.css'
 
@@ -9,7 +11,16 @@ function Shop (props) {
     <div className="shop-container">
       {
         shopEntries.length !== 0
-          ? <h2>This is a non-empty shop</h2>
+          ? shopEntries.map(entry => {
+            return (
+              <ShopItem
+                key={uniqid()}
+                title={entry.title}
+                src={entry.src}
+                alt={entry.alt}
+                price={entry.price}
+              />)
+          })
           : <LoadingIcon />
       }
     </div>
