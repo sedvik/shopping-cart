@@ -1,10 +1,14 @@
 import React from 'react'
+import './LoadingIcon.css'
+import loadingIcon from '../../images/doily-icon.png'
 
 function LoadingIcon (props) {
   return (
-    <div>
-
-    </div>
+    <img
+      className="loading-icon"
+      src={loadingIcon}
+      alt="Spinning doily loading icon"
+    />
   )
 }
 

@@ -9,6 +9,7 @@ import './styles/App.css'
 
 function App () {
   const numItems = 5
+  const shopEntries = []
 
   return (
     <HashRouter>
@@ -16,7 +17,10 @@ function App () {
         <Header numItems={numItems} />
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
+          <Route
+            path="/shop"
+            element={<Shop shopEntries={shopEntries}/>}
+          />
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
