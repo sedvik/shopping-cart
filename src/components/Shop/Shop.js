@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import ShopItem from '../ShopItem/ShopItem'
 import LoadingIcon from '../LoadingIcon/LoadingIcon'
+import { shopData } from '../../util/shopData'
 import './Shop.css'
 
 function Shop (props) {
-  const { shopEntries } = props
+  const [shopEntries, setShopEntries] = useState([])
+
+  // Use useEffect to perform a fake fetch of shop data on component mount.
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShopEntries(shopData)
+    }, 1000)
+
+    return () => {
+      clearTimeout(timeoutId)
+    }
+  }, [])
+
+  const { addCartEntry } = props
 
   return (
     <div className="shop-container">
@@ -19,6 +33,7 @@ function Shop (props) {
                 src={entry.src}
                 alt={entry.alt}
                 price={entry.price}
+                addCartEntry={addCartEntry}
               />)
           })
           : <LoadingIcon />

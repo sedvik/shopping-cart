@@ -7,7 +7,7 @@ import royalLace from '../images/royal-lace-doily.png'
 import teaParty from '../images/tea-party-doily.jpg'
 import tulip from '../images/tulip-doily.jpg'
 
-const shopEntries = [
+const shopData = [
   {
     id: 0,
     title: 'Bloom',
@@ -85,4 +85,4 @@ const cartEntries = [
   }
 ]
 
-export { shopEntries, cartEntries }
+export { shopData, cartEntries }

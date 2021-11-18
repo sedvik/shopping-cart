@@ -4,7 +4,16 @@ import { Link } from 'react-router-dom'
 import './Cart.css'
 
 function Cart (props) {
-  const { cartEntries } = props
+  const {
+    cartEntries,
+    updateCartEntry,
+    deleteCartEntry,
+    checkout
+  } = props
+
+  function handleCheckoutClick () {
+    checkout()
+  }
 
   // Conditionally render page button and text based on cart status
   const areCartEntries = cartEntries.length !== 0
@@ -16,7 +25,7 @@ function Cart (props) {
       return prevVal + currentVal.price * currentVal.qty
     }, 0)
     text = <p className="total-price">{`Total: $${total}`}</p>
-    button = <button className="checkout">Checkout</button>
+    button = <button className="checkout" onClick={handleCheckoutClick} >Checkout</button>
   } else {
     text = <p className="empty-cart-text">Your cart is currently empty</p>
     button = <Link to="/shop"><button className="cart-shop-btn">Shop</button></Link>
@@ -36,6 +45,8 @@ function Cart (props) {
                 alt={entry.alt}
                 price={entry.price}
                 qty={entry.qty}
+                updateCartEntry={updateCartEntry}
+                deleteCartEntry={deleteCartEntry}
               />
             )
           })
