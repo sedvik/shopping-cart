@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.749b4ae5.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.e80571c4.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.e80571c4.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.1eb26f1d.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.1eb26f1d.js.map",
+    "static/js/2.9b214a86.chunk.js": "/shopping-cart/static/js/2.9b214a86.chunk.js",
+    "static/js/2.9b214a86.chunk.js.map": "/shopping-cart/static/js/2.9b214a86.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.749b4ae5.chunk.css.map": "/shopping-cart/static/css/main.749b4ae5.chunk.css.map",
+    "static/js/2.9b214a86.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.9b214a86.chunk.js.LICENSE.txt",
+    "static/media/bloom-doily.a151ba6d.jpeg": "/shopping-cart/static/media/bloom-doily.a151ba6d.jpeg",
+    "static/media/doily-icon.7e1faddf.png": "/shopping-cart/static/media/doily-icon.7e1faddf.png",
+    "static/media/moonpetal-doily.47094e66.jpg": "/shopping-cart/static/media/moonpetal-doily.47094e66.jpg",
+    "static/media/normandy-lace-doily.42daedcc.jpg": "/shopping-cart/static/media/normandy-lace-doily.42daedcc.jpg",
+    "static/media/paper-heart-doily.1fe7fe4e.jpg": "/shopping-cart/static/media/paper-heart-doily.1fe7fe4e.jpg",
+    "static/media/pink-pineapple-doily.14364845.jpg": "/shopping-cart/static/media/pink-pineapple-doily.14364845.jpg",
+    "static/media/royal-lace-doily.33dd8960.png": "/shopping-cart/static/media/royal-lace-doily.33dd8960.png",
+    "static/media/tea-party-doily.10e8b9d7.jpg": "/shopping-cart/static/media/tea-party-doily.10e8b9d7.jpg",
+    "static/media/tulip-doily.fbe7a536.jpg": "/shopping-cart/static/media/tulip-doily.fbe7a536.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1eb26f1d.js",
+    "static/js/2.9b214a86.chunk.js",
+    "static/css/main.749b4ae5.chunk.css",
+    "static/js/main.e80571c4.chunk.js"
+  ]
+}
