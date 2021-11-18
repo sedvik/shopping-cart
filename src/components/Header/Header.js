@@ -8,7 +8,7 @@ function Header (props) {
   return (
     <header className="header">
       <h1>the Doily Shoppe</h1>
-      <Nav numItems= {numItems} />
+      <Nav numItems={numItems} />
     </header>
   )
 }
