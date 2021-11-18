@@ -66,23 +66,4 @@ const shopData = [
   }
 ]
 
-const cartEntries = [
-  {
-    id: 0,
-    title: 'Bloom',
-    src: bloom,
-    alt: 'Bloom Doily',
-    price: 20,
-    qty: 1
-  },
-  {
-    id: 1,
-    title: 'Moonpetal',
-    src: moonpetal,
-    alt: 'Moonpetal Doily',
-    price: 30,
-    qty: 2
-  }
-]
-
-export { shopData, cartEntries }
+export { shopData }
