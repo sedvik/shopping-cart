@@ -2,7 +2,7 @@ import React from 'react'
 import './LoadingIcon.css'
 import loadingIcon from '../../images/doily-icon.png'
 
-function LoadingIcon (props) {
+function LoadingIcon () {
   return (
     <img
       className="loading-icon"
