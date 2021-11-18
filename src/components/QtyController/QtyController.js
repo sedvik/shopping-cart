@@ -54,9 +54,9 @@ function QtyController (props) {
       <button
         className="plus-btn"
         onClick={handlePlusClick}
-        >
-          +
-        </button>
+      >
+        +
+      </button>
     </div>
   )
 }
